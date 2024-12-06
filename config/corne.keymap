@@ -164,10 +164,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q             &kp W               &kp E           &kp R               &kp T            &kp Y      &kp U                &kp I            &kp O                &kp P                 &none
-&none  &mt LEFT_SHIFT A  &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LEFT_COMMAND F  &lt 1 G          &lt 1 H    &mt RIGHT_COMMAND J  &mt RIGHT_ALT K  &mt RIGHT_CONTROL L  &mt RIGHT_SHIFT SEMI  &none
-&none  &kp Z             &kp X               &kp C           &lt 2 V             &kp B            &kp N      &lt 2 M              &kp COMMA        &kp DOT              &kp FSLH              &none
-                                             &kp LC(LEFT)    &kp LA(BACKSPACE)   &kp BACKSPACE    &kp SPACE  &kp ENTER            &kp LC(RIGHT)
+&none  &kp Q             &kp W               &kp E           &kp R                &kp T              &kp Y        &kp U                &kp I            &kp O                &kp P                 &none
+&none  &mt LEFT_SHIFT A  &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LEFT_COMMAND F   &kp G              &kp H        &mt RIGHT_COMMAND J  &mt RIGHT_ALT K  &mt RIGHT_CONTROL L  &mt RIGHT_SHIFT SEMI  &none
+&none  &kp Z             &kp X               &kp C           &kp V                &kp B              &kp N        &kp M                &kp COMMA        &kp DOT              &kp FSLH              &none
+                                             &kp LC(LEFT)    &lt 2 LA(BACKSPACE)  &lt 1 BACKSPACE    &lt 1 SPACE  &lt 2 ENTER          &kp LC(RIGHT)
             >;
         };
 
@@ -179,10 +179,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp LG(D)  &kp LG(LA(B))         &kp LG(Y)              &kp LG(J)          &kp LA(NUMBER_2)    &kp ASTERISK  &kp N7        &kp N8               &kp N9        &kp N0     &none
-&none  &kp LG(T)  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LG(W)          &kp LG(LS(T))       &kp PLUS      &kp NUMBER_4  &kp N5               &kp NUMBER_6  &kp MINUS  &none
-&none  &kp LG(R)  &kp LG(EQUAL)         &kp LG(MINUS)          &kp LG(N0)         &kp LG(LC(F))       &kp SLASH     &kp NUMBER_1  &kp NUMBER_2         &kp NUMBER_3  &kp EQUAL  &none
-                                        &kp LC(LEFT)           &kp LA(BACKSPACE)  &kp BACKSPACE       &kp SPACE     &kp ENTER     &kp LC(RIGHT_ARROW)
+&none  &kp LG(C_VOLUME_UP)    &kp LG(LA(HOME))  &kp LG(PAGE_UP)  &kp LG(PAGE_DOWN)  &kp LA(END)         &kp ASTERISK  &kp N7        &kp N8               &kp N9        &kp N0     &none
+&none  &kp LG(K_MUTE)         &kp LG(UP_ARROW)  &kp LG(LEFT)     &kp LG(RIGHT)      &kp LG(LS(DOWN))    &kp PLUS      &kp NUMBER_4  &kp N5               &kp NUMBER_6  &kp MINUS  &none
+&none  &kp LG(C_VOLUME_DOWN)  &kp LG(EQUAL)     &kp LG(MINUS)    &kp LG(N0)         &kp LA(NUMBER_2)    &kp SLASH     &kp NUMBER_1  &kp NUMBER_2         &kp NUMBER_3  &kp EQUAL  &none
+                                                &kp LC(LEFT)     &kp LA(BACKSPACE)  &kp BACKSPACE       &kp SPACE     &kp ENTER     &kp LC(RIGHT_ARROW)
             >;
         };
 
@@ -194,10 +194,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp GRAVE         &kp TILDE          &kp MINUS       &kp UNDERSCORE     &kp NON_US_BACKSLASH    &kp K_VOLUME_UP    &kp HOME         &kp PAGE_UP          &kp PAGE_DOWN          &kp END            &none
-&none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp PIPE                &kp C_MUTE         &kp UP_ARROW     &kp LEFT             &kp RIGHT              &kp DOWN           &none
-&none  &kp SQT           &kp DOUBLE_QUOTES  &kp MINUS       &kp LA(MINUS)      &kp LA(LS(MINUS))       &kp K_VOLUME_DOWN  &kp K_SCROLL_UP  &kp LS(K_SCROLL_UP)  &kp LS(K_SCROLL_DOWN)  &kp K_SCROLL_DOWN  &none
-                                            &kp LC(LEFT)    &kp LA(BACKSPACE)  &kp BACKSPACE           &kp SPACE          &kp ENTER        &kp LC(RIGHT)
+&none  &kp GRAVE         &kp TILDE          &kp MINUS       &kp UNDERSCORE     &kp NON_US_BACKSLASH    &kp GRAVE         &kp TILDE          &kp MINUS       &kp UNDERSCORE   &kp NON_US_BACKSLASH  &none
+&none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp PIPE                &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE              &none
+&none  &kp SQT           &kp DOUBLE_QUOTES  &kp MINUS       &kp LA(MINUS)      &kp LA(LS(MINUS))       &kp SQT           &kp DOUBLE_QUOTES  &kp MINUS       &kp LA(MINUS)    &kp LA(LS(MINUS))     &none
+                                            &kp LC(LEFT)    &kp LA(BACKSPACE)  &kp BACKSPACE           &kp SPACE         &kp ENTER          &kp LC(RIGHT)
             >;
         };
     };
