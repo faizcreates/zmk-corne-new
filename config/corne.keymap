@@ -196,10 +196,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp LG(C_VOLUME_UP)    &kp LG(LA(HOME))  &kp LG(PAGE_UP)  &kp LG(PAGE_DOWN)    &kp LA(END)         &kp ASTERISK  &kp N7        &kp N8               &kp N9        &kp N0     &none
-&none  &kp LG(K_MUTE)         &kp LG(UP_ARROW)  &kp LG(LEFT)     &kp LG(RIGHT)        &kp LG(LS(DOWN))    &kp PLUS      &kp NUMBER_4  &kp N5               &kp NUMBER_6  &kp MINUS  &none
-&none  &kp LG(C_VOLUME_DOWN)  &kp LG(EQUAL)     &kp LG(MINUS)    &kp LG(N0)           &kp LA(NUMBER_2)    &kp SLASH     &kp NUMBER_1  &kp NUMBER_2         &kp NUMBER_3  &kp EQUAL  &none
-                                                &kp LC(LEFT)     &lt 2 LA(BACKSPACE)  &lt 1 BACKSPACE     &lt 1 SPACE   &lt 2 ENTER   &kp LC(RIGHT_ARROW)
+&none  &kp LG(HOME)   &kp LG(LA(PAGE_UP))  &kp LG(PAGE_DOWN)  &kp LG(END)          &kp LA(C_VOLUME_UP)    &kp ASTERISK  &kp N7        &kp N8               &kp N9        &kp N0     &none
+&none  &kp LG(UP)     &kp LG(LEFT)         &kp LG(RIGHT)      &kp LG(DOWN)         &kp LG(LS(K_MUTE))     &kp PLUS      &kp NUMBER_4  &kp N5               &kp NUMBER_6  &kp MINUS  &none
+&none  &kp LG(EQUAL)  &kp LG(MINUS)        &kp LG(N0)         &kp LA(NUMBER_2)     &kp LA(C_VOL_DN)       &kp SLASH     &kp NUMBER_1  &kp NUMBER_2         &kp NUMBER_3  &kp EQUAL  &none
+                                           &kp LC(LEFT)       &lt 2 LA(BACKSPACE)  &lt 1 BACKSPACE        &lt 1 SPACE   &lt 2 ENTER   &kp LC(RIGHT_ARROW)
             >;
         };
 
@@ -211,10 +211,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp GRAVE         &kp TILDE          &kp MINUS       &kp UNDERSCORE       &kp NON_US_BACKSLASH    &kp GRAVE         &kp TILDE          &kp MINUS       &kp UNDERSCORE   &kp NON_US_BACKSLASH  &none
-&none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE      &kp PIPE                &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE              &none
-&none  &kp SQT           &kp DOUBLE_QUOTES  &kp MINUS       &kp LA(MINUS)        &kp LA(LS(MINUS))       &kp SQT           &kp DOUBLE_QUOTES  &kp MINUS       &kp LA(MINUS)    &kp LA(LS(MINUS))     &none
-                                            &kp LC(LEFT)    &lt 2 LA(BACKSPACE)  &lt 1 BACKSPACE         &lt 1 SPACE       &lt 2 ENTER        &kp LC(RIGHT)
+&none  &kp GRAVE         &kp TILDE          &kp UNDERSCORE  &kp NON_US_BACKSLASH  &none              &none        &kp AMPERSAND    &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
+&none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &none              &none        &kp DOLLAR       &kp PERCENT    &kp CARET             &kp DOUBLE_QUOTES      &none
+&none  &kp PIPE          &kp MINUS          &kp LA(MINUS)   &kp LA(LS(MINUS))     &none              &none        &kp EXCLAMATION  &kp AT_SIGN    &kp POUND             &kp SQT                &none
+                                            &kp LC(LEFT)    &lt 2 LA(BACKSPACE)   &lt 1 BACKSPACE    &lt 1 SPACE  &lt 2 ENTER      &kp LC(RIGHT)
             >;
         };
     };
